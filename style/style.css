@@ -13,7 +13,7 @@ html{
 .head h1{
     color: rgb(255, 255, 255);
     font-size: 10rem;
-    margin-right: 100px ;
+    margin-right: 125px ;
 }
 
 .head{
@@ -44,8 +44,8 @@ html{
 .menu{
     width: 700px;
     height: 70px;
-    margin-bottom: 200px;
     margin: auto;
+    margin-bottom: 50px;
     border: 1px solid yellow;
 }
 
@@ -405,4 +405,11 @@ label{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+
+@media screen and (max-width:420px){
+.menu{
+    
+}
 }
