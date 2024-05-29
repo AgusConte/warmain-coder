@@ -1,0 +1,406 @@
+html{
+    font-size: 62.5%;
+    background-color: rgb(16, 16, 16);
+}
+
+.box{
+    width: 1900px;
+    margin: auto;
+}
+
+.head h1{
+    color: rgb(255, 255, 255);
+    font-size: 10rem;
+    margin-right: 100px ;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    background: url(../img/wow.head.png)no-repeat;
+    background-size: 100%;
+    margin-left: 7%;
+}    
+
+.login{
+    width: 75px;
+    height: 75px;
+    background: url(../img/login.jpg)no-repeat;
+    background-size: 100%;
+    border-radius: 100px;
+    margin-right: 7%;
+}
+
+.menu{
+    width: 700px;
+    height: 70px;
+    margin-bottom: 200px;
+    margin: auto;
+    border: 1px solid yellow;
+}
+
+.menu ul{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 2rem;
+    list-style: none;
+    margin: auto;
+    margin-left: -40px;
+}
+
+.menu ul li{
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 5rem;
+    color: white;
+}
+
+.solo{
+    margin-left: 145px;
+}
+
+h3{
+    font-size: 2rem;
+    color: rgb(173, 200, 0);
+}
+
+p{
+    font-size: 1.9rem;
+    color: white;
+}
+
+.novedad{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.novedades{
+    width: 1000px;
+    height: 740px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+}
+
+.news{
+    margin: 5px;
+}
+
+.newsh{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.newsp{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+
+
+.players {
+    border: 1px solid white;
+    width: 500px;
+    height: 500px;
+    margin-right: auto;
+}
+
+.players h3{
+    text-align: center;
+    color: rgb(173, 200, 0);
+}
+
+
+
+.playersserver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.players h4{
+    margin-right: 100px;
+    font-size: 1.5rem;
+    margin-left: 125px;
+    color: white;
+}
+.players p{
+    font-size: 2rem;
+    margin-right: 125px;
+    color: white;
+}
+
+.foot{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* fin de index */
+
+.classic h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.Onyxia{
+    width: 1500px;
+    height: 800px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.Onyxiaplayers{
+    margin: auto;
+    width: 500px;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+
+.Onyxiaplayers h3{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Onyxiaplayersname{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Onyxiaplayersnum{
+    display: flex;    
+    justify-content: space-between;
+    margin-top: -15px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.Onyxia p{
+    margin-left: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+.Onyxia h3{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 3rem;
+    color: rgb(173, 200, 0);
+}
+
+/* fin de classic */
+
+.wotlksection h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wotlk{
+    width: 1500px;
+    height: 1475px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.wotlk p{
+    margin-left: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+.wotlk h3{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 3rem;
+    color: rgb(173, 200, 0);
+}
+
+
+/* fin de wotlk */
+
+.Panda h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.Pandaria{
+    width: 1500px;
+    height: 550px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.Pandaria p{
+    margin-left: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+.Pandaria h3{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 3rem;
+    color: rgb(173, 200, 0);
+}
+
+/* fin de pandaria */
+
+.descargar h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.descbox p{
+    margin-left: 10px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.descbox h3{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 3.5rem;
+    color: rgb(173, 200, 0);
+    text-align: center;
+}
+
+
+.descbox{
+    display: flex;
+    width: 1500px;
+    height: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.link{
+    width: 580px;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: 100px;
+}
+
+.tutorial{
+    width: 580px;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid white;
+    margin-right: 100px;
+}
+
+/* fin de descargas */
+
+.contacto h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form p{
+    margin-left: 10px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.form h3{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 3.5rem;
+    color: rgb(173, 200, 0);
+    text-align: center;
+}
+
+
+
+.formulario{
+    width: 880px;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid white;
+    margin: auto;
+
+}
+
+
+.form input[type=text],input[type=email] {
+    width: 500px;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 50px;
+}
+
+textarea{
+    width: 500px;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 50px;
+}
+
+input[type=submit] {
+    background-color: #eaf590;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+label{
+    font-size: 2rem;
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mens{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
