@@ -11,7 +11,8 @@ html{
 
 
 .head h1{
-    color: rgb(255, 255, 255);
+    color: #ccc;
+    text-shadow: 0 -1px 4px #000000, 0 -2px 10px #ff0, 0 -10px 20px #000000, 0 -18px 40px rgb(221, 255, 0), 2px 2px 0px rgba(206, 89, 55, 0);
     font-size: 10rem;
     margin-right: 125px ;
 }
@@ -30,6 +31,9 @@ html{
     background: url(../img/wow.head.png)no-repeat;
     background-size: 100%;
     margin-left: 7%;
+}
+li:hover{
+    color: rgb(255, 255, 255);text-shadow: 0px 0px 20px rgb(255, 255, 255)
 }    
 
 .login{
@@ -69,6 +73,9 @@ html{
 a{
     text-decoration: none;
     color: white;
+}
+a:hover{
+    color: rgb(255, 255, 255);text-shadow: 0px 0px 20px rgb(255, 255, 255)
 }
 
 h2{
@@ -401,15 +408,98 @@ label{
     align-items: center;
     margin-bottom: 10px;
 }
+
 .mens{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
+/* bootstrap */
 
-@media screen and (max-width:420px){
-.menu{
+
+.back{
+    background-color: rgb(16, 16, 16);
+}
+
+.fuentelogin{
+    font-size: 4rem;
+    color: white;
+}
+
+.margen{
+    margin-top: 50px;
+}
+
+.login-icon {
+    height: 200px; /* Ajusta el tamaño de la imagen de inicio de sesión */
+}
+
+.colorbtn{
+    background-color: rgb(255, 255, 55);
+}
+
+.pbtn{
+    color: black;
+}
+
+.interior {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid yellow;
+}
+
+.form-control {
+    font-size: 18px; 
+    margin-bottom: 15px; 
+}
+
+
+input[type="email"] {
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px; 
+}
+
+.btn-login {
+    font-size: 20px;
+    margin-top: 20px; 
+    text-align: center;
+    padding: 5px;
     
 }
+
+.logobs{ 
+    width: 200px;
+    height: 200px;
+    background: url(../img/wow.head.png)no-repeat;
+    background-size: 100%;
+}    
+
+.p2bs{
+    color: rgb(207, 207, 207);
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.a2bs{
+    color: yellow;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+@media (max-width: 545px) {
+    .interior {
+        width: 80%; /* Cambiar el ancho del formulario */
+    }
+
+    .input-group input.form-control {
+        width:100%; /* Ajustar el ancho de los campos de entrada al 100% menos el espacio para el margen */
+    }
+
+    /* Colocar el campo de contraseña debajo del campo de nombre */
+    .input-group {
+        flex-direction: column;
+    }
 }
