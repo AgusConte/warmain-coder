@@ -77,7 +77,7 @@
     
 
     .Onyxia{
-        @include wh(350px, 1050px);
+        @include wh(350px, 1075px);
         border: 1px solid $colorbordes2;
         margin: auto;
         p{
@@ -223,7 +223,7 @@
             margin-top: 20px;
             margin-right: 10px;
           }
-          
+
         label{
             font-size: 2rem;
             color: white;
