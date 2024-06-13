@@ -59,9 +59,6 @@
     }
 }
 
-
-
-
 p{
     font-size: 1.9rem;
     color: $colortexto;
@@ -77,6 +74,9 @@ p{
     .novedad{
         display: flex;
         @include flex(column, flex-start, space-around);
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 15px;
         .novedades{
             @include wh(1000px, 740px);
             border: 1px solid $colorbordes2;
@@ -106,7 +106,7 @@ p{
         .players {
             border: 1px solid $colorbordes2;
             @include wh(500px, 500px);
-            margin-right: auto;
+            margin: auto;
             h3{
                 font-size: 2rem;
                 text-align: center;

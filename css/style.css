@@ -7,6 +7,12 @@ html .box {
   margin: auto;
 }
 
+@media (max-width: 545px) {
+  .box {
+    width: 100%;
+    margin: auto;
+  }
+}
 .head {
   width: 100%;
   display: flex;
@@ -208,6 +214,9 @@ p {
     flex-direction: column;
     justify-content: flex-start;
     align-items: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 15px;
   }
   .novedad .novedades {
     width: 1000px;
@@ -241,7 +250,7 @@ p {
     border: 1px solid rgb(255, 252, 252);
     width: 500px;
     height: 500px;
-    margin-right: auto;
+    margin: auto;
   }
   .novedad .players h3 {
     font-size: 2rem;
