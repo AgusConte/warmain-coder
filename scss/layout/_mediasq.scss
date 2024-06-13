@@ -1,0 +1,258 @@
+
+@media (max-width: 450px){
+    .solo{
+        margin: auto;
+        text-align: center;
+    }
+    
+    .novedad{
+        display: flex;
+        @include flex(column, flex-start, space-around);
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 15px;
+        .novedades{
+            @include wh(350px, 890px);
+            border: 1px solid $colorbordes2;
+            margin: auto;
+            h3{
+                font-size: 1.4rem;
+                color: $colorsecundario;
+            }
+        
+            p{
+                font-size: 1.6rem;
+                color: $colortexto;
+            }
+            .news{
+                margin: 5px;
+                .newsh{
+                    height: 30px;
+                    display: flex;
+                    @include flex(row, space-between, center);
+                }
+                .newsp{
+                    border-bottom: 1px solid $colorbordes2;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .players {
+            border: 1px solid $colorbordes2;
+            @include wh(350px, 500px);
+            margin: auto;
+            margin-top: 50px;
+            h3{
+                font-size: 2rem;
+                text-align: center;
+                color: $colorsecundario;
+            }
+            .playersserver{
+                display: flex;
+                @include flex(row, center, center);
+                h4{
+                    margin-right: 100px;
+                    font-size: 1.5rem;
+                    margin-left: 125px;
+                    color: $colortexto;
+                }
+                p{
+                    font-size: 2rem;
+                    margin-right: 125px;
+                    color: $colortexto;
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    p{
+        font-size: 1.5rem;
+        color: $colortexto;
+    }
+     
+
+    
+
+    .Onyxia{
+        @include wh(350px, 1050px);
+        border: 1px solid $colorbordes2;
+        margin: auto;
+        p{
+            margin-left: 10px;
+            font-size: 1.6rem;
+            color: $colortexto;
+        }
+        h3{
+            margin: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 2.5rem;
+            color: $colorsecundario;
+        }
+       
+    }
+        
+    .Onyxiaplayers{
+        margin: auto;
+        width: 300px;
+        border: 1px solid $colorbordes2;
+        margin-top: 40px;
+        h3{
+            text-align: center;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .Onyxiaplayersname{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .Onyxiaplayersnum{
+            display: flex;    
+            justify-content: space-between;
+            margin-top: -15px;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+    }
+
+    .wotlk{
+        @include wh(350px, 1750px);
+        border: 1px solid $colorbordes2;
+        margin: auto;
+        p{
+            margin-left: 10px;
+            font-size: 1.6rem;
+            color: $colortexto;
+        }
+        h3{
+            margin: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 2.5rem;
+            color: $colorsecundario;
+        }
+    }
+    
+
+    .Pandaria{
+        @include wh(350px, 850px);
+        border: 1px solid $colorbordes2;
+        margin: auto;
+        p{
+            margin-left: 10px;
+            font-size: 1.6rem;
+            color: $colortexto;
+        }
+        h3{
+            margin: auto;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 2.5rem;
+            color: $colorsecundario;
+        }
+    }
+    
+
+    .descbox{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        @include wh(350px, 600px);
+        margin: auto;
+        p{
+            margin-left: 10px;
+            font-size: 2rem;
+            color: white;
+        }
+        h3{
+            margin: auto;
+            margin-top: 10px;
+            font-size: 3rem;
+            color: rgb(173, 200, 0);
+            text-align: center;
+        }
+        .link{
+            @include wh(350px, 380px);
+            padding: 10px;
+            border: 1px solid white;
+            margin: auto
+        }
+        
+        .tutorial{
+            @include wh(350px, 380px);
+            padding: 10px;
+            border: 1px solid white;
+            margin: auto;
+            margin-top: 10px;
+        }
+    }
+
+
+
+    .formulario{
+        @include wh(350px, 380px);
+        padding: 10px;
+        border: 1px solid $colorbordes2;
+        margin: auto;
+        input[type=text]{
+            @include wh(200px, 20px);
+            padding: 12px;
+            border: 1px solid $colorbordes2;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        textarea{
+            @include wh(200px, 150px);
+            padding: 12px;
+            border: 1px solid $colorbordes2;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        input[type=submit] {
+            background-color: #eaf590;
+            color: rgb(0, 0, 0);
+            padding: 12px 20px;
+            border-radius: 4px;
+            float: right;
+            margin-top: 20px;
+            margin-right: 10px;
+          }
+        label{
+            font-size: 2rem;
+            color: white;
+            margin-left: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .user{
+            display: flex;
+            @include flex(row, space-between, center);
+        }
+        .mail{
+            display: flex;
+            @include flex(row, space-between, center);
+            margin-bottom: 10px;
+        }
+        
+        .mens{
+            display: flex;
+            @include flex(row, space-between, flex-start);
+        }
+    }
+    
+    
+
+
+
+
+
+
+
+}

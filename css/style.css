@@ -4,6 +4,7 @@ html {
   width: 100%;
 }
 html .box {
+  width: 1850px;
   margin: auto;
 }
 
@@ -14,6 +15,7 @@ html .box {
     width: 100%;
   }
   html .box {
+    width: 100%;
     margin: auto;
   }
 }
@@ -207,82 +209,6 @@ p {
   color: white;
 }
 
-@media (max-width: 450px) {
-  .solo {
-    margin: auto;
-    text-align: center;
-  }
-  .novedad {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: space-around;
-    flex-wrap: wrap;
-    align-content: center;
-    margin-top: 15px;
-  }
-  .novedad .novedades {
-    width: 350px;
-    height: 890px;
-    border: 1px solid rgb(255, 252, 252);
-    margin: auto;
-  }
-  .novedad .novedades h3 {
-    font-size: 1.4rem;
-    color: rgb(173, 200, 0);
-  }
-  .novedad .novedades p {
-    font-size: 1.6rem;
-    color: white;
-  }
-  .novedad .novedades .news {
-    margin: 5px;
-  }
-  .novedad .novedades .news .newsh {
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .novedad .novedades .news .newsp {
-    border-bottom: 1px solid rgb(255, 252, 252);
-    margin-bottom: 20px;
-  }
-  .novedad .players {
-    border: 1px solid rgb(255, 252, 252);
-    width: 350px;
-    height: 500px;
-    margin: auto;
-    margin-top: 50px;
-  }
-  .novedad .players h3 {
-    font-size: 2rem;
-    text-align: center;
-    color: rgb(173, 200, 0);
-  }
-  .novedad .players .playersserver {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .novedad .players .playersserver h4 {
-    margin-right: 100px;
-    font-size: 1.5rem;
-    margin-left: 125px;
-    color: white;
-  }
-  .novedad .players .playersserver p {
-    font-size: 2rem;
-    margin-right: 125px;
-    color: white;
-  }
-  p {
-    font-size: 1.9rem;
-    color: white;
-  }
-}
 .Onyxia {
   width: 1500px;
   height: 800px;
@@ -607,7 +533,7 @@ h2 {
   color: white;
 }
 
-.h2tit .classic h2 {
+.h2tit {
   text-align: center;
   margin-bottom: 25px;
 }
@@ -639,6 +565,254 @@ h2 {
 .foot {
   margin-top: 50px;
   text-align: center;
+}
+
+@media (max-width: 450px) {
+  .solo {
+    margin: auto;
+    text-align: center;
+  }
+  .novedad {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 15px;
+  }
+  .novedad .novedades {
+    width: 350px;
+    height: 890px;
+    border: 1px solid rgb(255, 252, 252);
+    margin: auto;
+  }
+  .novedad .novedades h3 {
+    font-size: 1.4rem;
+    color: rgb(173, 200, 0);
+  }
+  .novedad .novedades p {
+    font-size: 1.6rem;
+    color: white;
+  }
+  .novedad .novedades .news {
+    margin: 5px;
+  }
+  .novedad .novedades .news .newsh {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .novedad .novedades .news .newsp {
+    border-bottom: 1px solid rgb(255, 252, 252);
+    margin-bottom: 20px;
+  }
+  .novedad .players {
+    border: 1px solid rgb(255, 252, 252);
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .novedad .players h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(173, 200, 0);
+  }
+  .novedad .players .playersserver {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .novedad .players .playersserver h4 {
+    margin-right: 100px;
+    font-size: 1.5rem;
+    margin-left: 125px;
+    color: white;
+  }
+  .novedad .players .playersserver p {
+    font-size: 2rem;
+    margin-right: 125px;
+    color: white;
+  }
+  p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .Onyxia {
+    width: 350px;
+    height: 1050px;
+    border: 1px solid rgb(255, 252, 252);
+    margin: auto;
+  }
+  .Onyxia p {
+    margin-left: 10px;
+    font-size: 1.6rem;
+    color: white;
+  }
+  .Onyxia h3 {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2.5rem;
+    color: rgb(173, 200, 0);
+  }
+  .Onyxiaplayers {
+    margin: auto;
+    width: 300px;
+    border: 1px solid rgb(255, 252, 252);
+    margin-top: 40px;
+  }
+  .Onyxiaplayers h3 {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Onyxiaplayers .Onyxiaplayersname {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Onyxiaplayers .Onyxiaplayersnum {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .wotlk {
+    width: 350px;
+    height: 1750px;
+    border: 1px solid rgb(255, 252, 252);
+    margin: auto;
+  }
+  .wotlk p {
+    margin-left: 10px;
+    font-size: 1.6rem;
+    color: white;
+  }
+  .wotlk h3 {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2.5rem;
+    color: rgb(173, 200, 0);
+  }
+  .Pandaria {
+    width: 350px;
+    height: 850px;
+    border: 1px solid rgb(255, 252, 252);
+    margin: auto;
+  }
+  .Pandaria p {
+    margin-left: 10px;
+    font-size: 1.6rem;
+    color: white;
+  }
+  .Pandaria h3 {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2.5rem;
+    color: rgb(173, 200, 0);
+  }
+  .descbox {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 600px;
+    margin: auto;
+  }
+  .descbox p {
+    margin-left: 10px;
+    font-size: 2rem;
+    color: white;
+  }
+  .descbox h3 {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 3rem;
+    color: rgb(173, 200, 0);
+    text-align: center;
+  }
+  .descbox .link {
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid white;
+    margin: auto;
+  }
+  .descbox .tutorial {
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .formulario {
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid rgb(255, 252, 252);
+    margin: auto;
+  }
+  .formulario input[type=text] {
+    width: 200px;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .formulario textarea {
+    width: 200px;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .formulario input[type=submit] {
+    background-color: #eaf590;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 4px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .formulario label {
+    font-size: 2rem;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .formulario .user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .formulario .mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .formulario .mens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
