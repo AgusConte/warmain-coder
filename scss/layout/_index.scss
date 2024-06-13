@@ -65,7 +65,7 @@ p{
 }
 
 
-@media (max-width: 545px){
+@media (max-width: 450px){
     .solo{
         margin: auto;
         text-align: center;
@@ -78,16 +78,16 @@ p{
         align-content: center;
         margin-top: 15px;
         .novedades{
-            @include wh(500px, 890px);
+            @include wh(350px, 890px);
             border: 1px solid $colorbordes2;
             margin: auto;
             h3{
-                font-size: 2rem;
+                font-size: 1.4rem;
                 color: $colorsecundario;
             }
         
             p{
-                font-size: 1.9rem;
+                font-size: 1.6rem;
                 color: $colortexto;
             }
             .news{
@@ -105,7 +105,7 @@ p{
         }
         .players {
             border: 1px solid $colorbordes2;
-            @include wh(400px, 500px);
+            @include wh(350px, 500px);
             margin: auto;
             margin-top: 50px;
             h3{
