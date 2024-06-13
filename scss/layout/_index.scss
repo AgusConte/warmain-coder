@@ -78,7 +78,7 @@ p{
         align-content: center;
         margin-top: 15px;
         .novedades{
-            @include wh(1000px, 740px);
+            @include wh(500px, 890px);
             border: 1px solid $colorbordes2;
             margin: auto;
             h3{
@@ -105,8 +105,9 @@ p{
         }
         .players {
             border: 1px solid $colorbordes2;
-            @include wh(500px, 500px);
+            @include wh(400px, 500px);
             margin: auto;
+            margin-top: 50px;
             h3{
                 font-size: 2rem;
                 text-align: center;

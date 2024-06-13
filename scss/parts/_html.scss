@@ -1,15 +1,21 @@
 html{
     font-size: 62.5%;
     background-color: $colorprimario;
+    width: 100%;
     .box{
-    width: 1900px;
+    width: 1800px;
     margin: auto;
     }
 }
 
 @media (max-width: 545px){
-    .box{
+    html{
+        font-size: 62.5%;
+        background-color: $colorprimario;
         width: 100%;
+        .box{
+        width: 545px;
         margin: auto;
         }
+    }
 }
