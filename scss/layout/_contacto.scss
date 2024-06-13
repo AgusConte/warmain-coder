@@ -1,0 +1,58 @@
+
+.formulario{
+    @include wh(880, 380);
+    padding: 10px;
+    border: 1px solid $colorbordes2;
+    margin: auto;
+    input[type=text]{
+        @include wh(500, 20);
+        padding: 12px;
+        border: 1px solid $colorbordes2;
+        border-radius: 4px;
+        margin-right: 50px;
+    }
+    textarea{
+        @include wh(550, 150);
+        padding: 12px;
+        border: 1px solid $colorbordes2;
+        border-radius: 4px;
+        margin-right: 50px;
+    }
+    input[type=submit] {
+        background-color: #eaf590;
+        color: rgb(0, 0, 0);
+        padding: 12px 20px;
+        border-radius: 4px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 50px;
+      }
+    label{
+        font-size: 2rem;
+        color: white;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .user{
+        display: flex;
+        @include flex(row, space-between, center);
+    }
+    .mail{
+        display: flex;
+        @include flex(row, space-between, center);
+        margin-bottom: 10px;
+    }
+    
+    .mens{
+        display: flex;
+        @include flex(row, space-between, flex-start);
+    }
+}
+
+
+
+
+
+

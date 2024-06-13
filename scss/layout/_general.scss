@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+    color: $colortexto;
+    &:hover{
+        color: rgb(255, 255, 255);text-shadow: 0px 0px 20px rgb(255, 255, 255)
+    }
+}
+
+h2{
+    font-size: 5rem;
+    color: $colortexto;
+}
+.h2tit{
+    .classic h2{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+.Onyxiaplayers{
+    margin: auto;
+    width: 500px;
+    border: 1px solid $colorbordes2;
+    margin-top: 40px;
+    h3{
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Onyxiaplayersname{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Onyxiaplayersnum{
+        display: flex;    
+        justify-content: space-between;
+        margin-top: -15px;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+}

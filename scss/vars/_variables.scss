@@ -1,0 +1,16 @@
+$colorprimario:  rgb(16, 16, 16);
+$colorsecundario: rgb(173, 200, 0);
+$colorbordes1: yellow;
+$colorbordes2: rgb(255, 252, 252);
+$colortexto: white;
+
+@mixin flex($direction, $justify, $align){
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin wh($w, $h){
+    width: $w;
+    height: $h;
+}

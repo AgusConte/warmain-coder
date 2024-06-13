@@ -1,3 +1,495 @@
+html {
+  font-size: 62.5%;
+  background-color: rgb(16, 16, 16);
+}
+html .box {
+  width: 1900px;
+  margin: auto;
+}
 
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.head h1 {
+  color: white;
+  text-shadow: 0 -1px 4px #000000, 0 -2px 10px #ff0, 0 -10px 20px #000000, 0 -18px 40px rgb(221, 255, 0), 2px 2px 0px rgba(206, 89, 55, 0);
+  font-size: 10rem;
+  margin-right: 125px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  background: url(../img/wow.head.png) no-repeat;
+  background-size: 100%;
+  margin-left: 7%;
+}
+
+.login {
+  width: 75px;
+  height: 75px;
+  background: url(../img/login.jpg) no-repeat;
+  background-size: 100%;
+  border-radius: 100px;
+  margin-right: 7%;
+}
+
+.menu {
+  width: 700px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 1px solid yellow;
+}
+.menu ul {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  font-size: 2rem;
+  list-style: none;
+  margin: auto;
+  margin-left: -40px;
+}
+.menu ul li {
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.menu ul li:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.solo {
+  margin-left: 145px;
+}
+
+.novedad {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: space-around;
+  align-items: flex-start;
+}
+.novedad .novedades {
+  width: 1000;
+  height: 740;
+  border: 1px solid rgb(255, 252, 252);
+  margin: auto;
+}
+.novedad .novedades h3 {
+  font-size: 2rem;
+  color: rgb(173, 200, 0);
+}
+.novedad .novedades p {
+  font-size: 1.9rem;
+  color: white;
+}
+.novedad .novedades .news {
+  margin: 5px;
+}
+.novedad .novedades .news .newsh {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.novedad .novedades .news .newsp {
+  border-bottom: 1px solid rgb(255, 252, 252);
+  margin-bottom: 20px;
+}
+
+.players {
+  border: 1px solid rgb(255, 252, 252);
+  width: 500;
+  height: 500;
+  margin-right: auto;
+}
+.players h3 {
+  text-align: center;
+  color: rgb(173, 200, 0);
+}
+.players .playersserver {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.players .playersserver h4 {
+  margin-right: 100px;
+  font-size: 1.5rem;
+  margin-left: 125px;
+  color: white;
+}
+.players .playersserver p {
+  font-size: 2rem;
+  margin-right: 125px;
+  color: white;
+}
+
+.Onyxia {
+  width: 1500;
+  height: 800;
+  border: 1px solid rgb(255, 252, 252);
+  margin: auto;
+}
+.Onyxia p {
+  margin-left: 10px;
+  font-size: 2rem;
+  color: white;
+}
+.Onyxia h3 {
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 3rem;
+  color: rgb(173, 200, 0);
+}
+
+.wotlk {
+  width: 1500;
+  height: 1475;
+  border: 1px solid rgb(255, 252, 252);
+  margin: auto;
+}
+.wotlk p {
+  margin-left: 10px;
+  font-size: 2rem;
+  color: white;
+}
+.wotlk h3 {
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 3rem;
+  color: rgb(173, 200, 0);
+}
+
+.Pandaria {
+  width: 1500;
+  height: 550;
+  border: 1px solid rgb(255, 252, 252);
+  margin: auto;
+}
+.Pandaria p {
+  margin-left: 10px;
+  font-size: 2rem;
+  color: white;
+}
+.Pandaria h3 {
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 3rem;
+  color: rgb(173, 200, 0);
+}
+
+.descbox {
+  display: flex;
+  justify-content: space-between;
+  width: 1500;
+  height: 400;
+  margin: auto;
+}
+.descbox p {
+  margin-left: 10px;
+  font-size: 2.5rem;
+  color: white;
+}
+.descbox h3 {
+  margin: auto;
+  margin-top: 10px;
+  font-size: 3.5rem;
+  color: rgb(173, 200, 0);
+  text-align: center;
+}
+.descbox .link {
+  width: 580;
+  height: 380;
+  padding: 10px;
+  border: 1px solid white;
+  margin-left: 100px;
+}
+.descbox .tutorial {
+  width: 580;
+  height: 380;
+  padding: 10px;
+  border: 1px solid white;
+  margin-right: 100px;
+}
+
+.formulario {
+  width: 880;
+  height: 380;
+  padding: 10px;
+  border: 1px solid rgb(255, 252, 252);
+  margin: auto;
+}
+.formulario input[type=text] {
+  width: 500;
+  height: 20;
+  padding: 12px;
+  border: 1px solid rgb(255, 252, 252);
+  border-radius: 4px;
+  margin-right: 50px;
+}
+.formulario textarea {
+  width: 550;
+  height: 150;
+  padding: 12px;
+  border: 1px solid rgb(255, 252, 252);
+  border-radius: 4px;
+  margin-right: 50px;
+}
+.formulario input[type=submit] {
+  background-color: #eaf590;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border-radius: 4px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.formulario label {
+  font-size: 2rem;
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.formulario .user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.formulario .mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.formulario .mens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.back {
+  background-color: rgb(16, 16, 16);
+}
+
+.fuentelogin {
+  font-size: 4rem;
+  color: white;
+}
+
+.margen {
+  margin-top: 50px;
+}
+
+.login-icon {
+  height: 200px;
+}
+
+.colorbtn {
+  background-color: rgb(255, 255, 55);
+}
+
+.pbtn {
+  color: black;
+}
+
+.interior {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid yellow;
+}
+
+.form-control {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+input[type=email] {
+  margin: auto;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.btn-login {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+.logobs {
+  width: 200px;
+  height: 200px;
+  background: url(../img/wow.head.png) no-repeat;
+  background-size: 100%;
+}
+
+.p2bs {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.a2bs {
+  color: yellow;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+@media (max-width: 545px) {
+  .interior {
+    width: 80%;
+  }
+  .input-group input.form-control {
+    width: 100%;
+  }
+  .input-group {
+    flex-direction: column;
+  }
+}
+.back {
+  background-color: rgb(16, 16, 16);
+}
+
+.fuentelogin {
+  font-size: 4rem;
+  color: white;
+}
+
+.margen {
+  margin-top: 50px;
+}
+
+.login-icon {
+  height: 200px;
+}
+
+.colorbtn {
+  background-color: rgb(255, 255, 55);
+}
+
+.pbtn {
+  color: black;
+}
+
+.interior {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid yellow;
+}
+
+.form-control {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+input[type=email] {
+  margin: auto;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.btn-login {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+.logobs {
+  width: 200px;
+  height: 200px;
+  background: url(../img/wow.head.png) no-repeat;
+  background-size: 100%;
+}
+
+.p2bs {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.a2bs {
+  color: yellow;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+@media (max-width: 545px) {
+  .interior {
+    width: 80%;
+  }
+  .input-group input.form-control {
+    width: 100%;
+  }
+  .input-group {
+    flex-direction: column;
+  }
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 5rem;
+  color: white;
+}
+
+.h2tit .classic h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Onyxiaplayers {
+  margin: auto;
+  width: 500px;
+  border: 1px solid rgb(255, 252, 252);
+  margin-top: 40px;
+}
+.Onyxiaplayers h3 {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Onyxiaplayers .Onyxiaplayersname {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Onyxiaplayers .Onyxiaplayersnum {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -15px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.foot {
+  margin-top: 50px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */

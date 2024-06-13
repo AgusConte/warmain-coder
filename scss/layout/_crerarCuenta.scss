@@ -1,0 +1,85 @@
+
+.back{
+    background-color: $colorprimario;
+}
+
+.fuentelogin{
+    font-size: 4rem;
+    color: $colortexto;
+}
+
+.margen{
+    margin-top: 50px;
+}
+
+.login-icon {
+    height: 200px; 
+}
+
+.colorbtn{
+    background-color: rgb(255, 255, 55);
+}
+
+.pbtn{
+    color: black;
+}
+
+.interior {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid $colorbordes1;
+}
+
+.form-control {
+    font-size: 18px; 
+    margin-bottom: 15px; 
+}
+
+
+input[type="email"] {
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px; 
+}
+
+.btn-login {
+    font-size: 20px;
+    margin-top: 20px; 
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.logobs{ 
+    width: 200px;
+    height: 200px;
+    background: url(../img/wow.head.png)no-repeat;
+    background-size: 100%;
+}    
+
+.p2bs{
+    color: $colortexto;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.a2bs{
+    color: yellow;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+@media (max-width: 545px) {
+    .interior {
+        width: 80%; 
+    }
+
+    .input-group input.form-control {
+        width:100%; 
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+}

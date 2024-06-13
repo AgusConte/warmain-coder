@@ -1,0 +1,26 @@
+
+.Onyxia{
+    @include wh(1500, 800);
+    border: 1px solid $colorbordes2;
+    margin: auto;
+    p{
+        margin-left: 10px;
+        font-size: 2rem;
+        color: $colortexto;
+    }
+    h3{
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 3rem;
+        color: $colorsecundario;
+    }
+   
+}
+
+
+
+
+
+
+
