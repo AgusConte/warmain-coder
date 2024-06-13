@@ -1,7 +1,7 @@
 .descbox{
     display: flex;
     justify-content: space-between;
-    @include wh(1500, 400);
+    @include wh(1500px, 400px);
     margin: auto;
     p{
         margin-left: 10px;
@@ -16,14 +16,14 @@
         text-align: center;
     }
     .link{
-        @include wh(580, 380);
+        @include wh(580px, 380px);
         padding: 10px;
         border: 1px solid white;
         margin-left: 100px;
     }
     
     .tutorial{
-        @include wh(580, 380);
+        @include wh(580px, 380px);
         padding: 10px;
         border: 1px solid white;
         margin-right: 100px;

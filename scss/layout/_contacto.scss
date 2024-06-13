@@ -1,18 +1,18 @@
 
 .formulario{
-    @include wh(880, 380);
+    @include wh(880px, 380px);
     padding: 10px;
     border: 1px solid $colorbordes2;
     margin: auto;
     input[type=text]{
-        @include wh(500, 20);
+        @include wh(500px, 20px);
         padding: 12px;
         border: 1px solid $colorbordes2;
         border-radius: 4px;
         margin-right: 50px;
     }
     textarea{
-        @include wh(550, 150);
+        @include wh(550px, 150px);
         padding: 12px;
         border: 1px solid $colorbordes2;
         border-radius: 4px;
