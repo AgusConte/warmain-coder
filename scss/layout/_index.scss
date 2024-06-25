@@ -1,14 +1,15 @@
 .solo{
-    margin-left: 145px;
+    text-align: center;
 }
 
 .novedad{
     display: flex;
     @include flex(row, flex-start, space-around);
     .novedades{
-        @include wh(1000px, 740px);
+        @include wh(1000px, 770px);
         border: 1px solid $colorbordes2;
         margin: auto;
+        margin-right: 5px;
         h3{
             font-size: 2rem;
             color: $colorsecundario;

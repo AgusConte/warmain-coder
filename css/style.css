@@ -1,10 +1,9 @@
 html {
   font-size: 62.5%;
   background-color: rgb(16, 16, 16);
-  width: 100%;
 }
 html .box {
-  width: 1850px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -38,7 +37,7 @@ html .box {
   height: 200px;
   background: url(../img/wow.head.png) no-repeat;
   background-size: 100%;
-  margin-left: 7%;
+  margin-left: 5%;
 }
 
 .login {
@@ -47,7 +46,7 @@ html .box {
   background: url(../img/login.jpg) no-repeat;
   background-size: 100%;
   border-radius: 100px;
-  margin-right: 7%;
+  margin-right: 5%;
 }
 
 .menu {
@@ -138,7 +137,7 @@ html .box {
   }
 }
 .solo {
-  margin-left: 145px;
+  text-align: center;
 }
 
 .novedad {
@@ -149,9 +148,10 @@ html .box {
 }
 .novedad .novedades {
   width: 1000px;
-  height: 740px;
+  height: 770px;
   border: 1px solid rgb(255, 252, 252);
   margin: auto;
+  margin-right: 5px;
 }
 .novedad .novedades h3 {
   font-size: 2rem;
@@ -210,8 +210,8 @@ p {
 }
 
 .Onyxia {
-  width: 1500px;
-  height: 800px;
+  width: 80%;
+  height: 870px;
   border: 1px solid rgb(255, 252, 252);
   margin: auto;
 }
@@ -229,8 +229,8 @@ p {
 }
 
 .wotlk {
-  width: 1500px;
-  height: 1475px;
+  width: 80%;
+  height: 1550px;
   border: 1px solid rgb(255, 252, 252);
   margin: auto;
 }
@@ -248,8 +248,8 @@ p {
 }
 
 .Pandaria {
-  width: 1500px;
-  height: 550px;
+  width: 80%;
+  height: 610px;
   border: 1px solid rgb(255, 252, 252);
   margin: auto;
 }
@@ -269,8 +269,8 @@ p {
 .descbox {
   display: flex;
   justify-content: space-between;
-  width: 1500px;
-  height: 400px;
+  width: 80%;
+  height: 450px;
   margin: auto;
 }
 .descbox p {
@@ -287,14 +287,15 @@ p {
 }
 .descbox .link {
   width: 580px;
-  height: 380px;
+  height: 440px;
   padding: 10px;
   border: 1px solid white;
   margin-left: 100px;
+  margin-right: 5px;
 }
 .descbox .tutorial {
   width: 580px;
-  height: 380px;
+  height: 440px;
   padding: 10px;
   border: 1px solid white;
   margin-right: 100px;
