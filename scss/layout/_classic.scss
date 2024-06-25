@@ -1,6 +1,6 @@
 
 .Onyxia{
-    @include wh(80%, 870px);
+    @include wh(80%, 1100px);
     border: 1px solid $colorbordes2;
     margin: auto;
     p{
@@ -15,5 +15,11 @@
         font-size: 3rem;
         color: $colorsecundario;
     }
-   
+    .imgclassic{
+        img{
+            @include wh(300px, 180px); 
+        }
+        text-align: center;
+        margin-top: 10px;
+    }
 }

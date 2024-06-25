@@ -33,8 +33,8 @@ html .box {
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background: url(../img/wow.head.png) no-repeat;
   background-size: 100%;
   margin-left: 5%;
@@ -211,7 +211,7 @@ p {
 
 .Onyxia {
   width: 80%;
-  height: 870px;
+  height: 1100px;
   border: 1px solid rgb(255, 252, 252);
   margin: auto;
 }
@@ -227,10 +227,18 @@ p {
   font-size: 3rem;
   color: rgb(173, 200, 0);
 }
+.Onyxia .imgclassic {
+  text-align: center;
+  margin-top: 10px;
+}
+.Onyxia .imgclassic img {
+  width: 300px;
+  height: 180px;
+}
 
 .wotlk {
   width: 80%;
-  height: 1550px;
+  height: 1750px;
   border: 1px solid rgb(255, 252, 252);
   margin: auto;
 }
@@ -246,10 +254,18 @@ p {
   font-size: 3rem;
   color: rgb(173, 200, 0);
 }
+.wotlk .imgwotlk {
+  text-align: center;
+  margin-top: 10px;
+}
+.wotlk .imgwotlk img {
+  width: 300px;
+  height: 180px;
+}
 
 .Pandaria {
   width: 80%;
-  height: 610px;
+  height: 810px;
   border: 1px solid rgb(255, 252, 252);
   margin: auto;
 }
@@ -264,6 +280,14 @@ p {
   margin-left: 10px;
   font-size: 3rem;
   color: rgb(173, 200, 0);
+}
+.Pandaria .imgpand {
+  text-align: center;
+  margin-top: 10px;
+}
+.Pandaria .imgpand img {
+  width: 300px;
+  height: 180px;
 }
 
 .descbox {

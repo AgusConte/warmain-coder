@@ -1,6 +1,6 @@
 
 .Pandaria{
-    @include wh(80%, 610px);
+    @include wh(80%, 810px);
     border: 1px solid $colorbordes2;
     margin: auto;
     p{
@@ -14,5 +14,12 @@
         margin-left: 10px;
         font-size: 3rem;
         color: $colorsecundario;
+    }
+    .imgpand{
+        img{
+            @include wh(300px, 180px); 
+        }
+        text-align: center;
+        margin-top: 10px;
     }
 }

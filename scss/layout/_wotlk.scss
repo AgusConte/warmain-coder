@@ -1,5 +1,5 @@
 .wotlk{
-    @include wh(80%, 1550px);
+    @include wh(80%, 1750px);
     border: 1px solid $colorbordes2;
     margin: auto;
     p{
@@ -13,6 +13,13 @@
         margin-left: 10px;
         font-size: 3rem;
         color: $colorsecundario;
+    }
+    .imgwotlk{
+        img{
+            @include wh(300px, 180px); 
+        }
+        text-align: center;
+        margin-top: 10px;
     }
 }
 
